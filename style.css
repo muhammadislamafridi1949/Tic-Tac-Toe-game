@@ -1,0 +1,43 @@
+
+.parent-box{  
+    
+    align-items: center;
+    justify-content: center;
+}
+.child-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 170px;
+    height: 170px;
+    /* border: 1px solid red; */
+    /* border-radius: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#box-5{
+    border: 5px solid black;
+}
+#box-2,#box-8{
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+#box-4,#box-6{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+#color{
+  background-color: red;
+}
+@media only screen and (max-width: 400px) {
+    .box{
+        font-size: 120px;     
+    }
+}
